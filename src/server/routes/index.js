@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-
+	
 	var co = require('co');
 	var thunkify = require ("thunkify")
 	
